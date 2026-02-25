@@ -89,25 +89,22 @@ footer {
   margin-bottom: -20px;
   padding-top: 2%;
   margin-top: 5%;
-
-  /* background-color: red; */
 }
 
 /* Hero Page */
 .hero {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 40px;
-  padding: 0 10%;
-  padding-top: 5%;
-  padding-bottom: 10%;
-
-  /* testing */
-  /* box-shadow: 0 20px 25px rgba(0,0,0.2); */
+  padding: 100px 5%;
+  margin-bottom: 5%;
+  min-height: calc(100vh - 70vh);
 }
 
 .hero-text {
-  padding-top: 9%;
+  padding-top: 0%;
 }
 
 .hero h1 {
@@ -358,7 +355,7 @@ span {
   anchor-name: --carosel;
 
   scroll-snap-type: x mandatory;
-  scroll-snap-stop: always;
+scroll-snap-stop: always;
   
   height: auto;
   padding: 2rem 3rem;
@@ -569,4 +566,100 @@ span {
 .contact-form button:hover {
   background-color: #168bff;
   transform: translateY(-10%);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+    min-height: auto;
+  }
+
+  .wrapper {
+    justify-content: center;
+    padding-right: 3rem;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+
+  .contact-container {
+    margin: 5% 20%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-card {
+    gap: 30px;
+  }
+
+  .about-card p {
+    font-size: 20px;
+  }
+
+  #talking-pic {
+    width: 25vw;
+    height: auto;
+  }
+
+  #breaking-pic {
+    width: 25vw;
+    height: auto;
+  }
+
+  .project-card {
+    flex: 0 0 85%;
+    min-width: 250px;
+  }
+
+  .carosel {
+    width: 90%;
+    margin: 2em 2em;
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 680px) {
+  .wrapper {
+    margin-top: -10px;
+    padding-right: 50px;
+  }
+
+  .hero h2, span {
+    font-size: 35px; 
+  }
+}
+
+@media (max-width: 510px) {
+  .wrapper {
+    margin-top: -10px;
+    padding-right: 50px;
+  }
+  
+  .hero h2, span {
+    font-size: 25px; 
+  }
+
+  .hero img {
+    width: 300px;
+    height: auto;
+  }
+
+  .hero h1 {
+    font-size: 70px;
+  }
+
+  .about-card {
+    flex-direction: column;
+  }
+
+  .about-card p {
+    font-size: 15px;
+  }
 }
