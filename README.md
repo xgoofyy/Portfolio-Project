@@ -2,7 +2,7 @@
 
 This is the repo for my personal portfolio website. This site showcases my journey as a student, my engineering projects, and my various involvements.
 
-**Live Link:** [My Site](arnoldzamora.me)
+**Live Link:** [My Site](www.arnoldzamora.me)
 
 ## 🚀 About the Project
 
