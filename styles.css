@@ -626,6 +626,10 @@ scroll-snap-stop: always;
 }
 
 @media (max-width: 680px) {
+  .title {
+    font-size: 4vw;
+  }
+
   .wrapper {
     margin-top: -10px;
     padding-right: 50px;
@@ -633,6 +637,14 @@ scroll-snap-stop: always;
 
   .hero h2, span {
     font-size: 35px; 
+  }
+
+  .contact-container {
+    margin: 5% 10%;
+  }
+
+  .contact-container p {
+    font-size: 3vw;
   }
 }
 
