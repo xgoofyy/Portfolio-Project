@@ -21,12 +21,12 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
-<main>
+  <main>
     <section>
-
+      
         <div class="hero">
           <img src="images/headshot.jpg" alt="headshot" id="headshot">
-
+          
           <div class="hero-text">
             <h3>Hi, I'm</h3>
             <h1>Arnold</h1>
@@ -41,20 +41,20 @@
                   <span>Rutgers NB Student.</span>
                   <span>Breakdancer.</span>
                   <span>Computer Engineer.</span>
+                </div>
+              </div>
+              
+              <div class="socials">
+                <a href="https://www.linkedin.com/in/arnoldzamora/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/xgoofyy" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+                <a href="https://www.instagram.com/kuya.arnold/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
               </div>
             </div>
-
-            <div class="socials">
-              <a href="https://www.linkedin.com/in/arnoldzamora/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-              <a href="https://github.com/xgoofyy" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
-              <a href="https://www.instagram.com/kuya.arnold/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-            </div>
           </div>
-        </div>
-
+          
       <div class="about-container">
-
         <h1 class="title" id="about">About Me</h1>
+        
 
         <div class="about-card">
           <p class="about-1">I'm a first-year computer engineer at Rutgers University New Brunswick. I'm currently involved in Blueprint, RUBreaks, and Combat Robotics. I have worked on various projects involving machine learning, electronics, and software engineering.</p>
@@ -63,34 +63,35 @@
 
         <div class="about-card">
           <img src="images/hobbies.png" alt="arnold-hobbies" id="breaking-pic">
-          <p class="about-2">Outside of my professional life, I enjoy breakdancing, playing instruments, and video editing. In general, I love trying new things and pushing myself outside of my comfort zone. I especially enjoy exploring the outdoors, since adventure and curiosity are my daily drive.</p>
+          <p class="about-2">Outside of my professional life, I enjoy breakdancing, playing instruments, and video editing. In general, I love trying new things and pushing myself outside of my comfort zone! I especially enjoy exploring the outdoors, since adventure and curiosity are my daily drive.</p>
         </div>
-
+        
       </div>
     </section>
 
-    <section>
-        <div class="projects-container">
-            <h1 class="title" id="projects">Projects</h1>
-
-            <div class="carosel">
+    <!-- used devIcons for techstack -->
+    <section> 
+      <div class="projects-container">
+        <h1 class="title" id="projects">Projects</h1>
+        
+        <div class="carosel">
               
               <div class="project-card">
                 <a href="https://rutgersconnect-my.sharepoint.com/:w:/g/personal/adz25_scarletmail_rutgers_edu/IQBtrzaafaR1TIm-KDy-NK7rAejHIz_d0nm9fxSaTkb3VCs?e=9EHxI9" target="_blank" class="project-link">
 
 
-                <h3>Hoopmaster</h3><p>Collaborated in a four-person team to engineer Hoopmaster, a 3D-printed electromechanical toy that met 100% of performance and universal design specifications for the ID3EA course.</p>
+                  <h3>Hoopmaster</h3><p>Collaborated in a four-person team to engineer Hoopmaster, a 3D-printed electromechanical toy that met 100% of performance and universal design specifications for the ID3EA course.</p>
 
                 <div class="tech-stack">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fusion/fusion-original.svg" />
                 </div>
+                
+              </a>
 
-                </a>
-
-              </div>
-              
-              <div class="project-card">
-                <a href="https://github.com/xgoofyy/Arduino-Tracking" target="_blank" class="project-link">
+            </div>
+            
+            <div class="project-card">
+              <a href="https://github.com/xgoofyy/Arduino-Tracking" target="_blank" class="project-link">
                   
                   <h3>Python to Arduino Tracking</h3><p>Engineered a hardware-software interface using Python and Tkinter to achieve low-latency synchronization between real-time cursor coordinates and physical servo motor rotation via an Arduino.</p>
                   
@@ -120,18 +121,66 @@
 
                   <h3>Racial Detection Software</h3><p>Designed an advanced image analysis pipeline using DeepFace and OpenCV to automate demographic categorization from live video streams with high-accuracy deep learning models.</p>
                   
-                <div class="tech-stack">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" />
+                  <div class="tech-stack">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" />
                 </div>
                 
               </a>
               </div>
 
             </div>
-        </div>
-    </section>
-  </main>
+          </div>
+        </section>
+        
+        <section>
+          <div class="contact-container">
+            <h1 class="title" id="contact">Contact</h1>
+            <p class="contact-desc">Have questions about me or my experience? Want to offer me a full-time software offer? Feel free to contact me down below and I'll get back to you as soon as I can!</p>
+
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="8939a906-8c09-44e2-bdbd-c62ca0998c92">
+
+            <label for="name">Name:</label>
+            <input 
+                type="text"   
+                name="name" 
+                id="name" 
+                placeholder="Enter your name"
+                required>
+
+            <label for="email">Email:</label>
+            <input 
+                type="email"   
+                name="email" 
+                id="email" 
+                placeholder="Enter your email"
+                required>
+
+            <label for="message">Message:</label>
+            <textarea 
+                name="message" 
+                id="message" 
+                placeholder="Enter your message"required></textarea>
+
+            <button type="submit">Send Message</button>
+
+            </form>
+            
+          </section>
+        </main>
+        
+        <footer>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!-- <li><a href="#resume">Resume</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <p>&copy; 2026 Arnold Zamora</p>
+        </footer>
 </body>
+
 </html>
