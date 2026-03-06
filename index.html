@@ -13,16 +13,28 @@
 </head>
 
 <body>
+
+  <!-- Navigation Bar -->
   <nav> 
     <ul>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <input type="checkbox" id="sidebar-active">
+
+      <label for="sidebar-active" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+  
+      <label for="sidebar-active" id="overlay"></label>
+
+      <div class="links">
+        <label for="sidebar-active" class="close-icon"><i class="fa-solid fa-xmark"></i></label>
+
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </div>
     </ul>
   </nav>
   <main>
     
-    <!-- hero section -->
+    <!-- Hero Section -->
     <section>
       
       <div class="hero">
@@ -193,6 +205,8 @@
           </ul>
           <p>&copy; 2026 Arnold Zamora</p>
         </footer>
+
+        <script src="script.js"></script>
 </body>
 
 </html>
