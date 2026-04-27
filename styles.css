@@ -595,7 +595,7 @@ scroll-snap-stop: always;
   .hero {
     flex-direction: column;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 100px;
     min-height: auto;
   }
 
